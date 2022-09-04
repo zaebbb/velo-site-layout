@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basket</title>
+
+    <!-- styles -->
+    <link rel="stylesheet" href="./styles/style.css">
+
+    <!-- scripts -->
+    <script src="https://kit.fontawesome.com/7438528e75.js" defer></script>
+    <script src="./scripts/script.js" defer></script>
+</head>
+<body>
+    <!-- header -->
+    <header>
+        <div class="mainHeader widthContent headerNotMain">
+            <a href="#" class="logo">
+                <img src="./images/logo.png">
+            </a>
+            <ul class="menuHeader">
+                <li>
+                    <a href="#">HOME</a>
+                </li>
+                <li>
+                    <a href="#">ABOUT</a>
+                </li>
+                <li>
+                    <a href="#">CONTACT</a>
+                </li>
+                <li>
+                    <a href="#">CONTACT</a>
+                </li>
+            </ul>
+            <ul class="userLinks">
+                <li>
+                    <a href="#">
+                        <i class="far fa-user-circle"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fas fa-shopping-basket"></i>
+                    </a>
+                </li>
+            </ul>
+            <div class="menuBars">
+                <i class="fas fa-bars" onclick="modalMenu()"></i>
+            </div>
+        </div>
+    </header>
+    <!-- modal menu -->
+    <div class="modalMenu">
+        <div class="modal">
+            <i class="fas fa-times" onclick="modalMenu()"></i>
+            <a href="#">HOME</a>
+            <a href="#">ABOUT</a>
+            <a href="#">CONTACT</a>
+            <a href="#">CONTACT</a>
+        </div>
+    </div>
+
+    <!-- content -->
+    <main class="widthContent">
+        <h1 class="titleText">Новость 1</h1>
+        <!-- all products -->
+        <div class="newPostContent">
+            <div class="newPostImage">
+                <img src="./images/velo.png">
+            </div>
+            <div class="newPostText">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam metus lectus, vulputate ut aliquet eget, ultricies a arcu. Mauris dictum ut neque et volutpat. Suspendisse potenti. Suspendisse maximus blandit metus non tincidunt. Quisque venenatis elit eget consequat placerat. In nibh est, ultrices non nunc quis, maximus convallis nunc. Nulla nec ultrices orci. Pellentesque ultricies nisl sed purus lacinia efficitur. Suspendisse ac massa at nulla lacinia viverra id vel augue. Suspendisse vehicula, enim non vulputate porttitor, metus mi commodo felis, ac euismod erat eros et quam. Maecenas arcu odio, eleifend in gravida quis, commodo ut dui. Nunc semper tortor sed pulvinar luctus. Morbi quis dictum sem. Nam interdum commodo finibus.
+
+                    Fusce hendrerit augue lectus, nec pretium justo volutpat eget. Fusce ut volutpat arcu, non commodo risus. Suspendisse potenti. Nullam purus quam, vestibulum a rhoncus sit amet, dictum ut est. Nullam eleifend diam iaculis scelerisque accumsan. Duis quis justo venenatis, maximus tellus at, ullamcorper tellus. Donec turpis quam, finibus porttitor nunc nec, feugiat molestie mauris. Morbi sed tortor at elit interdum elementum id luctus ligula. Nullam rutrum purus non quam lobortis, ac dapibus nunc congue. Nunc a auctor sapien. Nunc condimentum mi erat, ut scelerisque elit tempor eu. In nec placerat leo. Donec scelerisque erat nibh, eu bibendum mauris molestie vel. Fusce eu leo euismod, dignissim augue quis, tincidunt enim. Maecenas nec orci nibh. Duis nibh tellus, tempor sit amet suscipit sit amet, iaculis vitae ipsum.</p>
+            </div>
+        </div>
+
+        <div class="newsSite">
+            <h1 class="titleText">Новости</h1>
+            <div class="newsCards">
+                <div class="newCard">
+                    <div class="headNews">
+                        <h2>новость 1</h2>
+                        <a href="#">перейти</a>
+                    </div>
+                    <div class="bodyNews">
+                        <p>
+                            <span class="text">Краткое описание новости немного информацмм и тд.</span> / 
+                            <span class="category">категория: Спорт-товары</span> / 
+                            <span class="time">18.10.2021</span></p>
+                    </div>
+                </div>
+                <div class="newCard">
+                    <div class="headNews">
+                        <h2>новость 2</h2>
+                        <a href="#">перейти</a>
+                    </div>
+                    <div class="bodyNews">
+                        <p>
+                            <span class="text">Краткое описание новости немного информацмм и тд.</span> / 
+                            <span class="category">категория: Спорт-товары</span> / 
+                            <span class="time">18.10.2021</span></p>
+                    </div>
+                </div>
+                <div class="newCard">
+                    <div class="headNews">
+                        <h2>новость 3</h2>
+                        <a href="#">перейти</a>
+                    </div>
+                    <div class="bodyNews">
+                        <p>
+                            <span class="text">Краткое описание новости немного информацмм и тд.</span> / 
+                            <span class="category">категория: Спорт-товары</span> / 
+                            <span class="time">18.10.2021</span></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- footer -->
+    <footer class="widthContent">
+        <div class="footerHead">
+            <div class="blockFooter">
+                <h3>навигация</h3>
+                <a href="#">About</a>
+                <a href="#">Contact</a>
+                <a href="#">Home</a>
+                <a href="#">Catalog</a>
+            </div>
+            <div class="blockFooter">
+                <h3>сервис и помощь</h3>
+                <a href="#">Как заказать товар</a>
+                <a href="#">Условия доставки</a>
+                <a href="#">Возврат и обмен</a>
+                <a href="#">Оплата</a>
+                <a href="#">Таблицы размеров</a>
+                <a href="#">Инструкции к товарам</a>
+                <a href="#">Условия гарантии</a>
+            </div>
+            <div class="blockFooter">
+                <h3>информация</h3>
+                <a href="#">Адреса и телефоны магазинов</a>
+                <a href="#">Адреса сервисных центов</a>
+                <a href="#">Вакансии</a>
+                <a href="#">Команда</a>
+                <a href="#">Ссылки</a>
+                <a href="#">Обратная связь</a>
+            </div>
+        </div>
+        <div class="footerBody">
+            <p class="copyright">©2021 «VELOZAEB». Все права защищены.</p>
+            <div class="scrollTop">
+                <i class="fas fa-angle-up"></i>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

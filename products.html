@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products</title>
+
+    <!-- styles -->
+    <link rel="stylesheet" href="./styles/style.css">
+
+    <!-- scripts -->
+    <script src="https://kit.fontawesome.com/7438528e75.js" defer></script>
+    <script src="./scripts/script.js" defer></script>
+</head>
+<body>
+    <!-- header -->
+    <header>
+        <div class="mainHeader widthContent headerNotMain">
+            <a href="#" class="logo">
+                <img src="./images/logo.png">
+            </a>
+            <ul class="menuHeader">
+                <li>
+                    <a href="#">HOME</a>
+                </li>
+                <li>
+                    <a href="#">ABOUT</a>
+                </li>
+                <li>
+                    <a href="#">CONTACT</a>
+                </li>
+                <li>
+                    <a href="#">CONTACT</a>
+                </li>
+            </ul>
+            <ul class="userLinks">
+                <li>
+                    <a href="#">
+                        <i class="far fa-user-circle"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fas fa-shopping-basket"></i>
+                    </a>
+                </li>
+            </ul>
+            <div class="menuBars">
+                <i class="fas fa-bars" onclick="modalMenu()"></i>
+            </div>
+        </div>
+    </header>
+    <!-- modal menu -->
+    <div class="modalMenu">
+        <div class="modal">
+            <i class="fas fa-times" onclick="modalMenu()"></i>
+            <a href="#">HOME</a>
+            <a href="#">ABOUT</a>
+            <a href="#">CONTACT</a>
+            <a href="#">CONTACT</a>
+        </div>
+    </div>
+
+    <!-- content -->
+    <main class="widthContent">
+        <h1 class="titleText">Все товары</h1>
+        <!-- all products -->
+        <div class="contentProductPage">
+             <div class="contentSidebar">
+                <h3>Снаряжение</h3>
+                <label for="checkbox_1">
+                    <input type="checkbox" id="checkbox_1">
+                    <span>Чекбокс кликабельный / 137</span>
+                </label>
+                <label for="checkbox_2">
+                    <input type="checkbox" id="checkbox_2">
+                    <span>Чекбокс кликабельный / 137</span>
+                </label>
+                <label for="checkbox_3">
+                    <input type="checkbox" id="checkbox_3">
+                    <span>Чекбокс кликабельный / 137</span>
+                </label>
+                <label for="checkbox_4">
+                    <input type="checkbox" id="checkbox_4">
+                    <span>Чекбокс кликабельный / 137</span>
+                </label>
+                <label for="checkbox_5">
+                    <input type="checkbox" id="checkbox_5">
+                    <span>Чекбокс кликабельный / 137</span>
+                </label>
+                <h3>Цена</h3>
+                <div class="priceInput">
+                    <input type="text" placeholder="0">
+                    <span>-</span>
+                    <input type="text" placeholder="100 000">
+                </div>
+                <div class="sidebarMenuFilter">
+                    <div class="headSideFilter active">
+                        <h3>Бренд</h3>
+                        <i class="fas fa-angle-up"></i>
+                    </div>
+                    <div class="bodySideFilter active">
+                        <label for="checkbox_5">
+                            <input type="checkbox" id="checkbox_5">
+                            <span>Чекбокс кликабельный / 137</span>
+                        </label>
+                        <label for="checkbox_5">
+                            <input type="checkbox" id="checkbox_5">
+                            <span>Чекбокс кликабельный / 137</span>
+                        </label>
+                        <label for="checkbox_5">
+                            <input type="checkbox" id="checkbox_5">
+                            <span>Чекбокс кликабельный / 137</span>
+                        </label>
+                    </div>
+                </div>
+                <div class="sidebarMenuFilter">
+                    <div class="headSideFilter">
+                        <h3>Стиль</h3>
+                        <i class="fas fa-angle-up"></i>
+                    </div>
+                    <div class="bodySideFilter">
+                        <label for="checkbox_5">
+                            <input type="checkbox" id="checkbox_5">
+                            <span>Чекбокс кликабельный / 137</span>
+                        </label>
+                        <label for="checkbox_5">
+                            <input type="checkbox" id="checkbox_5">
+                            <span>Чекбокс кликабельный / 137</span>
+                        </label>
+                        <label for="checkbox_5">
+                            <input type="checkbox" id="checkbox_5">
+                            <span>Чекбокс кликабельный / 137</span>
+                        </label>
+                    </div>
+                </div>
+                <div class="sidebarMenuFilter">
+                    <div class="headSideFilter">
+                        <h3>Возраст</h3>
+                        <i class="fas fa-angle-up"></i>
+                    </div>
+                    <div class="bodySideFilter">
+                        <label for="checkbox_5">
+                            <input type="checkbox" id="checkbox_5">
+                            <span>Чекбокс кликабельный / 137</span>
+                        </label>
+                        <label for="checkbox_5">
+                            <input type="checkbox" id="checkbox_5">
+                            <span>Чекбокс кликабельный / 137</span>
+                        </label>
+                        <label for="checkbox_5">
+                            <input type="checkbox" id="checkbox_5">
+                            <span>Чекбокс кликабельный / 137</span>
+                        </label>
+                    </div>
+                </div>
+                <div class="sidebarMenuFilter">
+                    <div class="headSideFilter">
+                        <h3>Сезон</h3>
+                        <i class="fas fa-angle-up"></i>
+                    </div>
+                    <div class="bodySideFilter">
+                        <label for="checkbox_5">
+                            <input type="checkbox" id="checkbox_5">
+                            <span>Чекбокс кликабельный / 137</span>
+                        </label>
+                        <label for="checkbox_5">
+                            <input type="checkbox" id="checkbox_5">
+                            <span>Чекбокс кликабельный / 137</span>
+                        </label>
+                        <label for="checkbox_5">
+                            <input type="checkbox" id="checkbox_5">
+                            <span>Чекбокс кликабельный / 137</span>
+                        </label>
+                    </div>
+                </div>
+                <div class="sidebarMenuFilter">
+                    <div class="headSideFilter">
+                        <h3>Материал</h3>
+                        <i class="fas fa-angle-up"></i>
+                    </div>
+                    <div class="bodySideFilter">
+                        <label for="checkbox_5">
+                            <input type="checkbox" id="checkbox_5">
+                            <span>Чекбокс кликабельный / 137</span>
+                        </label>
+                        <label for="checkbox_5">
+                            <input type="checkbox" id="checkbox_5">
+                            <span>Чекбокс кликабельный / 137</span>
+                        </label>
+                        <label for="checkbox_5">
+                            <input type="checkbox" id="checkbox_5">
+                            <span>Чекбокс кликабельный / 137</span>
+                        </label>
+                    </div>
+                </div>
+                <div class="sidebarMenuFilter">
+                    <div class="headSideFilter">
+                        <h3>Тип тормозов</h3>
+                        <i class="fas fa-angle-up"></i>
+                    </div>
+                    <div class="bodySideFilter">
+                        <label for="checkbox_5">
+                            <input type="checkbox" id="checkbox_5">
+                            <span>Чекбокс кликабельный / 137</span>
+                        </label>
+                        <label for="checkbox_5">
+                            <input type="checkbox" id="checkbox_5">
+                            <span>Чекбокс кликабельный / 137</span>
+                        </label>
+                        <label for="checkbox_5">
+                            <input type="checkbox" id="checkbox_5">
+                            <span>Чекбокс кликабельный / 137</span>
+                        </label>
+                    </div>
+                </div>
+                <div class="sidebarMenuFilter">
+                    <div class="headSideFilter">
+                        <h3>Назначение</h3>
+                        <i class="fas fa-angle-up"></i>
+                    </div>
+                    <div class="bodySideFilter">
+                        <label for="checkbox_5">
+                            <input type="checkbox" id="checkbox_5">
+                            <span>Чекбокс кликабельный / 137</span>
+                        </label>
+                        <label for="checkbox_5">
+                            <input type="checkbox" id="checkbox_5">
+                            <span>Чекбокс кликабельный / 137</span>
+                        </label>
+                        <label for="checkbox_5">
+                            <input type="checkbox" id="checkbox_5">
+                            <span>Чекбокс кликабельный / 137</span>
+                        </label>
+                    </div>
+                </div>
+                <div class="sidebarMenuFilter">
+                    <div class="headSideFilter">
+                        <h3>Уровень</h3>
+                        <i class="fas fa-angle-up"></i>
+                    </div>
+                    <div class="bodySideFilter">
+                        <label for="checkbox_5">
+                            <input type="checkbox" id="checkbox_5">
+                            <span>Чекбокс кликабельный / 137</span>
+                        </label>
+                        <label for="checkbox_5">
+                            <input type="checkbox" id="checkbox_5">
+                            <span>Чекбокс кликабельный / 137</span>
+                        </label>
+                        <label for="checkbox_5">
+                            <input type="checkbox" id="checkbox_5">
+                            <span>Чекбокс кликабельный / 137</span>
+                        </label>
+                    </div>
+                </div>
+                <div class="sidebarMenuFilter">
+                    <div class="headSideFilter">
+                        <h3>Скидка</h3>
+                        <i class="fas fa-angle-up"></i>
+                    </div>
+                    <div class="bodySideFilter">
+                        <label for="checkbox_5">
+                            <input type="checkbox" id="checkbox_5">
+                            <span>Чекбокс кликабельный / 137</span>
+                        </label>
+                        <label for="checkbox_5">
+                            <input type="checkbox" id="checkbox_5">
+                            <span>Чекбокс кликабельный / 137</span>
+                        </label>
+                        <label for="checkbox_5">
+                            <input type="checkbox" id="checkbox_5">
+                            <span>Чекбокс кликабельный / 137</span>
+                        </label>
+                    </div>
+                </div>
+                <div class="sidebarMenuFilter">
+                    <div class="headSideFilter">
+                        <h3>Конструкция</h3>
+                        <i class="fas fa-angle-up"></i>
+                    </div>
+                    <div class="bodySideFilter">
+                        <label for="checkbox_5">
+                            <input type="checkbox" id="checkbox_5">
+                            <span>Чекбокс кликабельный / 137</span>
+                        </label>
+                        <label for="checkbox_5">
+                            <input type="checkbox" id="checkbox_5">
+                            <span>Чекбокс кликабельный / 137</span>
+                        </label>
+                        <label for="checkbox_5">
+                            <input type="checkbox" id="checkbox_5">
+                            <span>Чекбокс кликабельный / 137</span>
+                        </label>
+                    </div>
+                </div>
+                <div class="buttonsFilter">
+                    <button class="openFilter">Показать</button>
+                    <button class="stopFilter">Сбросить</button>
+                </div>
+            </div>
+            <div class="contentProducts">
+                <div class="product">
+                    <img src="./images/card.png">
+                    <div class="infoProduct">
+                        <h2>Горный велосипед</h2>
+                        <p><b>Бренд:</b> Cannondale</p>
+                        <p><b>Сезон:</b> 2021</p>
+                        <p class="price"><b>Цена: </b><span class="sale">721 520 ₽</span> 658 520 ₽</p>
+                    </div>
+                    <div class="saleCard">sale</div>
+                    <div class="exists">
+                        <i class="fas fa-check"></i>
+                    </div>
+                </div>
+                <div class="product">
+                    <img src="./images/card.png">
+                    <div class="infoProduct">
+                        <h2>Горный велосипед</h2>
+                        <p><b>Бренд:</b> Cannondale</p>
+                        <p><b>Сезон:</b> 2021</p>
+                        <p class="price"><b>Цена: </b><span class="sale">721 520 ₽</span> 658 520 ₽</p>
+                    </div>
+                    <div class="saleCard">sezon</div>
+                    <div class="exists">
+                        <i class="fas fa-check"></i>
+                    </div>
+                </div>
+                <div class="product">
+                    <img src="./images/card.png">
+                    <div class="infoProduct">
+                        <h2>Горный велосипед</h2>
+                        <p><b>Бренд:</b> Cannondale</p>
+                        <p><b>Сезон:</b> 2021</p>
+                        <p class="price"><b>Цена: </b><span class="sale">721 520 ₽</span> 658 520 ₽</p>
+                    </div>
+                    <div class="saleCard">sezon</div>
+                    <div class="exists">
+                        <i class="fas fa-check"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="newsSite">
+            <h1 class="titleText">Новости</h1>
+            <div class="newsCards">
+                <div class="newCard">
+                    <div class="headNews">
+                        <h2>новость 1</h2>
+                        <a href="#">перейти</a>
+                    </div>
+                    <div class="bodyNews">
+                        <p>
+                            <span class="text">Краткое описание новости немного информацмм и тд.</span> / 
+                            <span class="category">категория: Спорт-товары</span> / 
+                            <span class="time">18.10.2021</span></p>
+                    </div>
+                </div>
+                <div class="newCard">
+                    <div class="headNews">
+                        <h2>новость 2</h2>
+                        <a href="#">перейти</a>
+                    </div>
+                    <div class="bodyNews">
+                        <p>
+                            <span class="text">Краткое описание новости немного информацмм и тд.</span> / 
+                            <span class="category">категория: Спорт-товары</span> / 
+                            <span class="time">18.10.2021</span></p>
+                    </div>
+                </div>
+                <div class="newCard">
+                    <div class="headNews">
+                        <h2>новость 3</h2>
+                        <a href="#">перейти</a>
+                    </div>
+                    <div class="bodyNews">
+                        <p>
+                            <span class="text">Краткое описание новости немного информацмм и тд.</span> / 
+                            <span class="category">категория: Спорт-товары</span> / 
+                            <span class="time">18.10.2021</span></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- footer -->
+    <footer class="widthContent">
+        <div class="footerHead">
+            <div class="blockFooter">
+                <h3>навигация</h3>
+                <a href="#">About</a>
+                <a href="#">Contact</a>
+                <a href="#">Home</a>
+                <a href="#">Catalog</a>
+            </div>
+            <div class="blockFooter">
+                <h3>сервис и помощь</h3>
+                <a href="#">Как заказать товар</a>
+                <a href="#">Условия доставки</a>
+                <a href="#">Возврат и обмен</a>
+                <a href="#">Оплата</a>
+                <a href="#">Таблицы размеров</a>
+                <a href="#">Инструкции к товарам</a>
+                <a href="#">Условия гарантии</a>
+            </div>
+            <div class="blockFooter">
+                <h3>информация</h3>
+                <a href="#">Адреса и телефоны магазинов</a>
+                <a href="#">Адреса сервисных центов</a>
+                <a href="#">Вакансии</a>
+                <a href="#">Команда</a>
+                <a href="#">Ссылки</a>
+                <a href="#">Обратная связь</a>
+            </div>
+        </div>
+        <div class="footerBody">
+            <p class="copyright">©2021 «VELOZAEB». Все права защищены.</p>
+            <div class="scrollTop">
+                <i class="fas fa-angle-up"></i>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
